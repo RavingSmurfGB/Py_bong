@@ -17,17 +17,16 @@ time_list = [str(i*datetime.timedelta(minutes=spacing)) for i in range(24*60//sp
 
 
 
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Logging
 datetime.date.today().strftime("%d/%m/%Y")
 def jprint(*value): # Accepts all variable types
     if logging == True:
 
         value_str = ''.join(value)# The value is given to us as a tuple, we use this to convert it   
-
+        print(value_str)
         output = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S") , " -- " , value_str, "\n"
         output_str = ''.join(output) # Output is also made in to a tuple so we convert it back again
-        print(output_str)
+        
         with open(log_file, 'a') as the_file:
             the_file.write(output_str)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -62,12 +61,12 @@ def random_times():
 
 
         if duplicate != True: # If a duplicate wad not found
-            added_to_list = "Time added to list"
+            added_to_list = "True"
             sound_time_list.append(choice) # Appends the time choice to the list
     else: 
-        added_to_list = "Time not added to list"
+        added_to_list = "False"
 
-    sound_time_list_str = ''.join(sound_time_list) # Converts the sound_time_list to string
+    sound_time_list_str = ', '.join(sound_time_list) # Converts the sound_time_list to string
     jprint("Time chosen - " , choice, " // Hour Chosen - ", hour , " // Added to list - ", added_to_list ," // Soundlist on this iteration  = " , sound_time_list_str )
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -75,10 +74,12 @@ def random_times():
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Main
+jprint(" ")
+jprint("Startup ")
 while len(sound_time_list) < sound_iterations: # when the length of the list is smaller than the amount of sound iterations we want
     random_times()
 
-sound_time_list_str = ''.join(sound_time_list) # Converts the sound_time_list to string
+sound_time_list_str = ', '.join(sound_time_list) # Converts the sound_time_list to string
 jprint("Full list output : ", sound_time_list_str)
 
 
