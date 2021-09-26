@@ -1,0 +1,18 @@
+25/09/2021 13:10:50 --  
+25/09/2021 13:10:50 -- Startup 
+25/09/2021 13:10:50 -- Time chosen - 20:10:00 // Hour Chosen - 20 // Added to list - False // Soundlist on this iteration  = 
+25/09/2021 13:10:50 -- Time chosen - 14:20:00 // Hour Chosen - 14 // Added to list - True // Soundlist on this iteration  = 14:20:00
+25/09/2021 13:10:50 -- Time chosen - 22:30:00 // Hour Chosen - 22 // Added to list - False // Soundlist on this iteration  = 14:20:00
+25/09/2021 13:10:50 -- Time chosen - 10:00:00 // Hour Chosen - 10 // Added to list - True // Soundlist on this iteration  = 14:20:00, 10:00:00
+25/09/2021 13:10:50 -- Time chosen - 5:00:00 // Hour Chosen - 5 // Added to list - False // Soundlist on this iteration  = 14:20:00, 10:00:00
+25/09/2021 13:10:50 -- Time chosen - 14:50:00 // Hour Chosen - 14 // Added to list - False // Soundlist on this iteration  = 14:20:00, 10:00:00
+25/09/2021 13:10:50 -- Time chosen - 12:00:00 // Hour Chosen - 12 // Added to list - True // Soundlist on this iteration  = 14:20:00, 10:00:00, 12:00:00
+25/09/2021 13:10:50 -- Time chosen - 15:10:00 // Hour Chosen - 15 // Added to list - True // Soundlist on this iteration  = 14:20:00, 10:00:00, 12:00:00, 15:10:00
+25/09/2021 13:10:50 -- Time chosen - 17:40:00 // Hour Chosen - 17 // Added to list - True // Soundlist on this iteration  = 14:20:00, 10:00:00, 12:00:00, 15:10:00, 17:40:00
+25/09/2021 13:10:50 -- Full list output : 14:20:00, 10:00:00, 12:00:00, 15:10:00, 17:40:00
+25/09/2021 14:20:51 -- 14:20 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+25/09/2021 15:10:51 -- 15:10 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+25/09/2021 17:40:53 -- 17:40 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+25/09/2021 20:00:54 -- 20:00 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+26/09/2021 00:00:56 -- 00:00 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+26/09/2021 00:00:56 -- 00:00 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

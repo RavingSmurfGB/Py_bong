@@ -1,5 +1,5 @@
-import datetime, random, winsound
-from typing import List
+import datetime, random, winsound, time
+
 
 
 set_hours = [10, 19] # This will set the hours you want the script to work betw
@@ -81,6 +81,21 @@ while len(sound_time_list) < sound_iterations: # when the length of the list is 
 
 sound_time_list_str = ', '.join(sound_time_list) # Converts the sound_time_list to string
 jprint("Full list output : ", sound_time_list_str)
+
+#need to have main check for the time, once every 30 seconds then when 
+
+
+while True:
+    
+    current_time = datetime.datetime.now().strftime("%H:%M") # We get the  current time but only the hours and minutes
+    for item in sound_time_list:
+        #jprint("current time is - ", current_time)
+        #jprint("item is - ", item)
+        if current_time in item: # If the current time is found in the item from sound_time_list:
+            jprint(current_time , " - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    time.sleep(60)
+
+
 
 
 #winsound.PlaySound("Bellatrix.wav", winsound.SND_FILENAME) # Will play the sound given
