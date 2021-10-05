@@ -8,7 +8,7 @@ sound_iterations = 5 # Defines how many times we want the sound to happen.
 logging = True # Enables/Disables Logging
 log_file = "logging.txt"
 added_to_list = None
-
+previous_date = datetime.datetime.now().date()
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Generate time list
 spacing = 10    # in minutes
@@ -88,14 +88,21 @@ jprint("Full list output : ", sound_time_list_str)
 while True:
     
     current_time = datetime.datetime.now().strftime("%H:%M") # We get the  current time but only the hours and minutes
-    for item in sound_time_list:
-        #jprint("current time is - ", current_time)
-        #jprint("item is - ", item)
-        if current_time in item: # If the current time is found in the item from sound_time_list:
-            jprint(current_time , " - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    current_time = current_time + ":00"
+
+    current_date = datetime.datetime.now().date()
+    if current_date != previous_date:
+        sound_time_list = []
+        while len(sound_time_list) < sound_iterations: # when the length of the list is smaller than the amount of sound iterations we want
+            random_times()
+    
+    previous_date = current_date
+
+    if current_time in sound_time_list: # If the current time is found in the item from sound_time_list:
+        winsound.PlaySound("Bellatrix.wav", winsound.SND_FILENAME) # Will play the sound given
+        time.sleep(2)
+        winsound.PlaySound("Bellatrix.wav", winsound.SND_FILENAME) # Will play the sound given
+
+        
+
     time.sleep(60)
-
-
-
-
-#winsound.PlaySound("Bellatrix.wav", winsound.SND_FILENAME) # Will play the sound given

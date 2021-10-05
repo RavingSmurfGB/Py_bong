@@ -1,18 +1,44 @@
-25/09/2021 13:10:50 --  
-25/09/2021 13:10:50 -- Startup 
-25/09/2021 13:10:50 -- Time chosen - 20:10:00 // Hour Chosen - 20 // Added to list - False // Soundlist on this iteration  = 
-25/09/2021 13:10:50 -- Time chosen - 14:20:00 // Hour Chosen - 14 // Added to list - True // Soundlist on this iteration  = 14:20:00
-25/09/2021 13:10:50 -- Time chosen - 22:30:00 // Hour Chosen - 22 // Added to list - False // Soundlist on this iteration  = 14:20:00
-25/09/2021 13:10:50 -- Time chosen - 10:00:00 // Hour Chosen - 10 // Added to list - True // Soundlist on this iteration  = 14:20:00, 10:00:00
-25/09/2021 13:10:50 -- Time chosen - 5:00:00 // Hour Chosen - 5 // Added to list - False // Soundlist on this iteration  = 14:20:00, 10:00:00
-25/09/2021 13:10:50 -- Time chosen - 14:50:00 // Hour Chosen - 14 // Added to list - False // Soundlist on this iteration  = 14:20:00, 10:00:00
-25/09/2021 13:10:50 -- Time chosen - 12:00:00 // Hour Chosen - 12 // Added to list - True // Soundlist on this iteration  = 14:20:00, 10:00:00, 12:00:00
-25/09/2021 13:10:50 -- Time chosen - 15:10:00 // Hour Chosen - 15 // Added to list - True // Soundlist on this iteration  = 14:20:00, 10:00:00, 12:00:00, 15:10:00
-25/09/2021 13:10:50 -- Time chosen - 17:40:00 // Hour Chosen - 17 // Added to list - True // Soundlist on this iteration  = 14:20:00, 10:00:00, 12:00:00, 15:10:00, 17:40:00
-25/09/2021 13:10:50 -- Full list output : 14:20:00, 10:00:00, 12:00:00, 15:10:00, 17:40:00
-25/09/2021 14:20:51 -- 14:20 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-25/09/2021 15:10:51 -- 15:10 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-25/09/2021 17:40:53 -- 17:40 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-25/09/2021 20:00:54 -- 20:00 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-26/09/2021 00:00:56 -- 00:00 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-26/09/2021 00:00:56 -- 00:00 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+a03/10/2021 20:00:19 -- 20:00 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+04/10/2021 00:00:29 -- 00:00 - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+04/10/2021 09:09:28 --  
+04/10/2021 09:09:28 -- Startup 
+04/10/2021 09:09:28 -- Time chosen - 1:30:00 // Hour Chosen - 1 // Added to list - False // Soundlist on this iteration  = 
+04/10/2021 09:09:28 -- Time chosen - 10:50:00 // Hour Chosen - 10 // Added to list - True // Soundlist on this iteration  = 10:50:00
+04/10/2021 09:09:28 -- Time chosen - 18:20:00 // Hour Chosen - 18 // Added to list - True // Soundlist on this iteration  = 10:50:00, 18:20:00
+04/10/2021 09:09:28 -- Time chosen - 22:00:00 // Hour Chosen - 22 // Added to list - False // Soundlist on this iteration  = 10:50:00, 18:20:00
+04/10/2021 09:09:28 -- Time chosen - 22:20:00 // Hour Chosen - 22 // Added to list - False // Soundlist on this iteration  = 10:50:00, 18:20:00
+04/10/2021 09:09:28 -- Time chosen - 18:10:00 // Hour Chosen - 18 // Added to list - False // Soundlist on this iteration  = 10:50:00, 18:20:00
+04/10/2021 09:09:28 -- Time chosen - 3:10:00 // Hour Chosen - 3 // Added to list - False // Soundlist on this iteration  = 10:50:00, 18:20:00
+04/10/2021 09:09:28 -- Time chosen - 16:10:00 // Hour Chosen - 16 // Added to list - True // Soundlist on this iteration  = 10:50:00, 18:20:00, 16:10:00
+04/10/2021 09:09:28 -- Time chosen - 15:50:00 // Hour Chosen - 15 // Added to list - True // Soundlist on this iteration  = 10:50:00, 18:20:00, 16:10:00, 15:50:00
+04/10/2021 09:09:28 -- Time chosen - 17:00:00 // Hour Chosen - 17 // Added to list - True // Soundlist on this iteration  = 10:50:00, 18:20:00, 16:10:00, 15:50:00, 17:00:00
+04/10/2021 09:09:28 -- Full list output : 10:50:00, 18:20:00, 16:10:00, 15:50:00, 17:00:00
+05/10/2021 00:00:59 -- Time chosen - 5:30:00 // Hour Chosen - 5 // Added to list - False // Soundlist on this iteration  = 
+05/10/2021 00:00:59 -- Time chosen - 16:00:00 // Hour Chosen - 16 // Added to list - True // Soundlist on this iteration  = 16:00:00
+05/10/2021 00:00:59 -- Time chosen - 0:00:00 // Hour Chosen - 0 // Added to list - False // Soundlist on this iteration  = 16:00:00
+05/10/2021 00:00:59 -- Time chosen - 5:50:00 // Hour Chosen - 5 // Added to list - False // Soundlist on this iteration  = 16:00:00
+05/10/2021 00:00:59 -- Time chosen - 10:50:00 // Hour Chosen - 10 // Added to list - True // Soundlist on this iteration  = 16:00:00, 10:50:00
+05/10/2021 00:00:59 -- Time chosen - 16:50:00 // Hour Chosen - 16 // Added to list - True // Soundlist on this iteration  = 16:00:00, 10:50:00
+05/10/2021 00:00:59 -- Time chosen - 21:40:00 // Hour Chosen - 21 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00
+05/10/2021 00:00:59 -- Time chosen - 10:30:00 // Hour Chosen - 10 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00
+05/10/2021 00:00:59 -- Time chosen - 22:50:00 // Hour Chosen - 22 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00
+05/10/2021 00:00:59 -- Time chosen - 15:00:00 // Hour Chosen - 15 // Added to list - True // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 8:10:00 // Hour Chosen - 8 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 21:10:00 // Hour Chosen - 21 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 22:40:00 // Hour Chosen - 22 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 6:20:00 // Hour Chosen - 6 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 22:50:00 // Hour Chosen - 22 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 16:40:00 // Hour Chosen - 16 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 20:20:00 // Hour Chosen - 20 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 6:10:00 // Hour Chosen - 6 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 10:20:00 // Hour Chosen - 10 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 5:30:00 // Hour Chosen - 5 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00
+05/10/2021 00:00:59 -- Time chosen - 18:10:00 // Hour Chosen - 18 // Added to list - True // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00
+05/10/2021 00:00:59 -- Time chosen - 7:30:00 // Hour Chosen - 7 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00
+05/10/2021 00:00:59 -- Time chosen - 6:20:00 // Hour Chosen - 6 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00
+05/10/2021 00:00:59 -- Time chosen - 23:00:00 // Hour Chosen - 23 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00
+05/10/2021 00:00:59 -- Time chosen - 20:10:00 // Hour Chosen - 20 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00
+05/10/2021 00:00:59 -- Time chosen - 4:50:00 // Hour Chosen - 4 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00
+05/10/2021 00:00:59 -- Time chosen - 8:00:00 // Hour Chosen - 8 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00
+05/10/2021 00:00:59 -- Time chosen - 22:10:00 // Hour Chosen - 22 // Added to list - False // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00
+05/10/2021 00:00:59 -- Time chosen - 17:10:00 // Hour Chosen - 17 // Added to list - True // Soundlist on this iteration  = 16:00:00, 10:50:00, 15:00:00, 18:10:00, 17:10:00
