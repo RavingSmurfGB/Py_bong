@@ -99,6 +99,7 @@ while True:
     previous_date = current_date
 
     if current_time in sound_time_list: # If the current time is found in the item from sound_time_list:
+        jprint(current_time , " - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         winsound.PlaySound("Bellatrix.wav", winsound.SND_FILENAME) # Will play the sound given
         time.sleep(2)
         winsound.PlaySound("Bellatrix.wav", winsound.SND_FILENAME) # Will play the sound given
