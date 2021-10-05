@@ -90,20 +90,26 @@ while True:
     current_time = datetime.datetime.now().strftime("%H:%M") # We get the  current time but only the hours and minutes
     current_time = current_time + ":00"
 
+    # Date Cecking
+    #   We use this to determine if the date has changed and we should generate a new list of times
     current_date = datetime.datetime.now().date()
     if current_date != previous_date:
         sound_time_list = []
         while len(sound_time_list) < sound_iterations: # when the length of the list is smaller than the amount of sound iterations we want
             random_times()
+        sound_time_list_str = ', '.join(sound_time_list) # Converts the sound_time_list to string
+        jprint("Full list output : ", sound_time_list_str) # We print the full list output
     
     previous_date = current_date
 
+    # Time checking
+    #   We use this every 60 seconds to see if the current time matches what is in the sound time list, if it does then we play the sound
     if current_time in sound_time_list: # If the current time is found in the item from sound_time_list:
         jprint(current_time , " - it activated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         winsound.PlaySound("Bellatrix.wav", winsound.SND_FILENAME) # Will play the sound given
         time.sleep(2)
         winsound.PlaySound("Bellatrix.wav", winsound.SND_FILENAME) # Will play the sound given
-
+        time.sleep(58)
         
-
-    time.sleep(60)
+    else:
+        time.sleep(60)
